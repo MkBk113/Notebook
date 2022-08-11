@@ -6,4 +6,4 @@
 
 
 [GitHub](https://github.com/mochazi/docsify-demo)
-[开始阅读](?id=中文文档)
+[开始阅读](?id=编写警告)
