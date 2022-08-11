@@ -5,5 +5,5 @@
 - 人活着本就没什么意义 但是活下去才能找到有趣的事物 就像你找到了这朵花 就像我找到了你
 
 
-[GitHub](https://github.com/mochazi/docsify-demo)
+[GitHub](https://github.com/MkBk113/Notebook)
 [开始阅读](?id=编写警告)
