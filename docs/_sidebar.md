@@ -1,5 +1,5 @@
 - HTML
-    - [HTML](zh-cn/HTML.md)
+    - [常见标签](./zh-cn/HTML/HTML.md)
 - CSS
     - [CSS](zh-cn/CSS.md)
 - JavaScript基础
