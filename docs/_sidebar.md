@@ -3,6 +3,6 @@
 - 02-🚩
     - [CSS](./zh-cn/CSS/CSS.md)
 - 03-🚩
-    - [JavaScript基础](zh-cn/JavaScript基础.md)
+    - [JavaScript基础](./zh-cn/Javascript%E5%9F%BA%E7%A1%80/JavaScript%E5%9F%BA%E7%A1%80.md)
 - 04-🚩
-    - [Ajax](zh-cn/Ajax.md)
+    - [Web API](./zh-cn/Web%20API/Web%20API.md)
