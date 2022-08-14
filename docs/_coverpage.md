@@ -6,4 +6,4 @@
 
 
 [GitHub](https://github.com/MkBk113/Notebook)
-[开始阅读](?id=编写警告)
+[开始阅读](?id=ZY)
