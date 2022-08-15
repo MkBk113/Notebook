@@ -36,13 +36,6 @@
 
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
     <!-- 2.js外部写法 -->
     <script src="./js外部.js"></script>
 </head>
@@ -79,15 +72,6 @@
       * vscode快捷键 ALT + SHIFT + A
 
 ```html
-
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-
 <script>
     //单行注释：注释内容只能是这一行
     /* 多行注释：注释内容可以是多行
@@ -95,11 +79,6 @@
     第二行
     */
 </script>
-</body>
-
-</html>
-
-
 ```
 
 ## 输入与输出语句
@@ -167,14 +146,6 @@ confirm("玛卡巴卡");
 
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-
 <body>
     <!--
 
@@ -185,10 +156,7 @@ confirm("玛卡巴卡");
         4.CPU将我们代码在运行时产生的数据保存到内存中
 
     -->
-
 </body>
-
-</html>
 ```
 
 ## 数据类型
@@ -196,17 +164,7 @@ confirm("玛卡巴卡");
 ### 数据类型介绍
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        
+    <script>       
         /* 
         1.为什么需要有数据类型？
             * 每一种编程语言都有自己的语法规则,在处理数据的时候,也会有自己的规则,不是任何数据都可以处理的。
@@ -219,11 +177,8 @@ confirm("玛卡巴卡");
         console.log( 'true' )//打印 黑色 true
         console.log( true )//打印 蓝色 true
         console.log( '玛卡巴卡' )//打印 玛卡巴卡
-        console.log( 玛卡巴卡 )//程序报错 Uncaught ReferenceError: 玛卡巴卡 is not defined
-        
+        console.log( 玛卡巴卡 )//程序报错 Uncaught ReferenceError: 玛卡巴卡 is not defined   
     </script>
-</body>
-</html>
 ```
 
 
@@ -231,21 +186,7 @@ confirm("玛卡巴卡");
 ## 五种基本数据类型
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-
-  <body>
     <script>
-      /*本小节学习目标 :  
-          1. 掌握js五种基本类型语法  
-          2. 掌握 string number boolean 类型作用 
-      */
 
       //1. string类型 : 字符串 一切以  单引号''  双引号""  反引号``包起来的内容
       //作用 : 用于展示文本
@@ -275,23 +216,11 @@ confirm("玛卡巴卡");
       //5. null : 空值  只有一个值 null
       console.log( null )
     </script>
-  </body>
-</html>
-
 ```
 
 ## typeof检测数据类型
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         //(1) typeof 数据   (2) typeof (数据)
         //语法结果：得到一个字符串来告诉你这个数据是什么类型。 
@@ -301,8 +230,6 @@ confirm("玛卡巴卡");
         console.log( typeof undefined )//'undefined'
         console.log( typeof null )//'object'
     </script>
-</body>
-</html>
 ```
 
 
@@ -312,15 +239,6 @@ confirm("玛卡巴卡");
 ### 变量声明/取值/赋值
 
 ```javascript
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         
         //变量作用： 在内存中存储数据
@@ -334,11 +252,9 @@ confirm("玛卡巴卡");
         document.write( age )
 
         //变量可以在声明的时候赋值
-        let name = '班长'//等价于 (1) let name  (2)name = '班长'
+        let name = '玛卡巴卡'//等价于 (1) let name  (2)name = '玛卡巴卡'
         document.write( name )
     </script>
-</body>
-</html>
 ```
 
 
@@ -348,16 +264,6 @@ confirm("玛卡巴卡");
 ### 变量使用注意点
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-
-<body>
-
     <script>
         /* 
         1.变量作用 ： 在内存中存储数据
@@ -388,9 +294,6 @@ confirm("玛卡巴卡");
         console.log(num1,num2);
         
     </script>
-</body>
-
-</html>
 ```
 
 
@@ -402,18 +305,6 @@ confirm("玛卡巴卡");
 
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-
-<body>
-
-</body>
-
 <script>
     /* 
         1.变量(letiable)作用 ： 在内存中 存储数据
@@ -446,31 +337,20 @@ confirm("玛卡巴卡");
     */
 
         //存名字
-        let name = '坤哥'
+        let name = '玛卡巴卡'
         //存年龄
-        let age = 30
+        let age = 18
         //存性别
         let gender = '男'
         //存女朋友
         let girlFriend = '代码'
 
 </script>
-
-</html>
 ```
 
 ### 变量练习：交换两个变量的值
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         //需求：交换两个变量里面的值
         
@@ -488,25 +368,12 @@ confirm("玛卡巴卡");
         num2 = temp
         console.log( num1,num2 )//20 21
         
-        
-        
     </script>
-</body>
-</html>
 ```
 
 ## 常量
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         变量 :  值可以修改, 使用let声明
@@ -526,8 +393,6 @@ confirm("玛卡巴卡");
         
         
     </script>
-</body>
-</html>
 ```
 
 
@@ -535,15 +400,6 @@ confirm("玛卡巴卡");
 ## 字面量
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         
         /* 
@@ -565,13 +421,9 @@ confirm("玛卡巴卡");
         console.log( '123' )//字符串字面量
         console.log( true )//布尔字面量
         console.log( [10,20,30] )//数组字面量
-        console.log( {name:'ikun'} )//对象字面量
-        
-        
+        console.log( {name:'ikun'} )//对象字面量     
         
     </script>
-</body>
-</html>
 ```
 
 
@@ -581,15 +433,6 @@ confirm("玛卡巴卡");
 ### 算术运算符
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 
         1.运算符 : 有运算作用的符号
@@ -608,9 +451,6 @@ confirm("玛卡巴卡");
       console.log(10 - 1) //9
       console.log(10 % 3) // 10除以3, 余数 1
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -618,16 +458,6 @@ confirm("玛卡巴卡");
 ### 赋值运算符
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-
-
 <script>
     /*赋值运算符 
     =  +=  -=  *=  /=   %=
@@ -655,9 +485,6 @@ confirm("玛卡巴卡");
     console.log(num5);//1
 
 </script>
-
-</body>
-</html>
 ```
 
 
@@ -665,33 +492,59 @@ confirm("玛卡巴卡");
 ### 自增自减运算符
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-<script>
+  <script>
 
     //1.自增运算符 ++
     //自增表达式:   num++
+    // ++ 使用后会使得原来的变量立刻增加1
+    // 自增分为前自增(++a)和后自增(a++)
+    // 不同的是++a和a++所返回的值不同
+    // a++ 是自增前的值 旧值
+    // ++a 是自增后的值 新值
+
     let num1 = 10;
     num1++;//这行代码相当于 num1 = num1 + 1 的简写形式
     console.log ( num1 );//11
 
+
+
     //2.自减运算符 --
     //自减表达式： num--
+    // -- 使用后会使得原来的变量立刻减小1
+    //自减分为前自减(--a)和后自减(a--)
+    //无论是--a还是a--都会使原变量立刻减少1
+    //不同的是--a和a--的值不同
+    //--a 是新值
+    //a-- 是旧值
+
     let num2 = 20;
     num2--;//这行代码相当于 num2 = num2 - 1 的简写形式
     console.log ( num2 );//12
+    
+    
+
+    let a = 10
+        
+    // let b = a++
+    // console.log("a++ =", b)  //10
+
+    let b = ++a
+    // console.log("++a =", b)  //11
+    // console.log(a)           //11
+
+    let n = 5
+    //            5  +  7  + 7
+    let result = n++ + ++n + n
+
+    // console.log(result)      //19
+
+    a = 5
+        
+    // console.log('--a', --a)   //4
+    // console.log('a--', a--)   //4    
+    // console.log(a)            //3  
 
 </script>
-</body>
-
-
-</html>
 ```
 
 
@@ -699,16 +552,6 @@ confirm("玛卡巴卡");
 ### 关系运算符
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-
 <script>
     /**1.关系运算符（比较运算符）：比较两个数据之间的关系（某种条件是否成立）
         * 八种： >  >=  <  <=  ==  !=  ===全等 !== 不全等
@@ -729,9 +572,8 @@ confirm("玛卡巴卡");
     //3.全等不全等： 先比较数据的值，再比较数据的类型
     console.log ( "1" === 1 );//false  两者的值虽然相等都是1，但是他们数据类型不一样，所以不成立
 
-
 </script>
-</html>
+
 ```
 
 
@@ -739,15 +581,6 @@ confirm("玛卡巴卡");
 ### 逻辑运算符
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
 <script>
 
     /* 
@@ -795,7 +628,6 @@ confirm("玛卡巴卡");
     console.log ( ! ( 2 > 1 ) );//false     2>1的结果是true    与true相反的就是false
 
     //有的丈母娘找女婿 ：只要不是外地的。   `非xxxx`类似于一种否定逻辑
-
 
 </script>
 </html>
@@ -886,15 +718,6 @@ confirm("玛卡巴卡");
 ### 数据类型转换介绍
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /*       * 数据类型不一致,得不到预期计算结果
         */
@@ -906,8 +729,6 @@ confirm("玛卡巴卡");
         let res = num1 + num2//'10' + '20'
         console.log( res )//'1020'
     </script>
-</body>
-</html>
 ```
 
 
@@ -915,15 +736,6 @@ confirm("玛卡巴卡");
 ### 转换为number类型
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         //需求 ： 输入两个数字，计算两个数字的和
         // prompt输入框 得到的是string类型
@@ -981,14 +793,8 @@ confirm("玛卡巴卡");
 
         console.log(Number(undefined));//NaN
         console.log(Number(null));//0
-        
-        
-        
-        
-        
+               
     </script>
-</body>
-</html>
 ```
 
 
@@ -996,21 +802,12 @@ confirm("玛卡巴卡");
 ### number类型特殊值NaN
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         //1.NaN是number类型中一个特殊值
         // not a number:不是一个数字，表示错误的运算结果
 
-        console.log('张三-100')//NaN
-        console.log( Number('黑马程序员') )//NaN
+        console.log('小王-100')//NaN
+        console.log( Number('玛卡巴卡') )//NaN
 
         //2.NaN不能参与任何计算，结果一律为NaN
         //NaN实际场景： 开发中，我们一般不会接触到NaN，除非你的代码出bug了，数学计算出错
@@ -1018,8 +815,6 @@ confirm("玛卡巴卡");
         console.log( num + 1 )//我们忘记给num赋值，导致undefined 与 1 相加得到NaN
         
     </script>
-</body>
-</html>
 ```
 
 
@@ -1027,15 +822,6 @@ confirm("玛卡巴卡");
 ### 转换为string类型
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         let num = 200
         
@@ -1051,11 +837,8 @@ confirm("玛卡巴卡");
         */
         console.log( num.toString() )//'200'
         console.log( num.toString(16) )//'c8'
-        
-        
+              
     </script>
-</body>
-</html>
 ```
 
 
@@ -1063,15 +846,6 @@ confirm("玛卡巴卡");
 ### 转换为boolean类型==
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         // Boolean(数据)
         /* 
@@ -1089,8 +863,6 @@ confirm("玛卡巴卡");
         console.log( Boolean(false) )//false
 
     </script>
-</body>
-</html>
 ```
 
 
@@ -1098,15 +870,6 @@ confirm("玛卡巴卡");
 ### 隐式转换
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
        /* 
        隐式转换 ： 当运算符两边的 ‘数据类型不一致’ 的时候，编译器会转成一致后运算
@@ -1128,8 +891,6 @@ confirm("玛卡巴卡");
        console.log( !undefined )//true   !Boolean(undefined)
        
     </script>
-</body>
-</html>
 ```
 
 
@@ -1137,15 +898,6 @@ confirm("玛卡巴卡");
 ### undefined与null区别
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         1. undefined : 未定义。 当变量只声明,但是没有赋值。此时默认值是undefined
@@ -1166,8 +918,6 @@ confirm("玛卡巴卡");
         console.log( Number(null) )//0
         
     </script>
-</body>
-</html>
 ```
 
 
@@ -1177,15 +927,7 @@ confirm("玛卡巴卡");
 ### 语句与表达式
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+
     <script>
         /* 
             简单概括: 有运算符参与的就是表达式,没有运算符参与的就是语句
@@ -1198,15 +940,13 @@ confirm("玛卡巴卡");
         //分支语句  循环语句
 
     </script>
-</body>
-</html>
 ```
 
 
 
 ### if单分支结构
 
-* 1.if结构语法：`if(条件 true/false){ 条件成立时需要执行的代码 }`
+* 1.if结构语法：**if(条件 true/false){ 条件成立时需要执行的代码 }**
 * 2.if结构补充说明：
   * 1.大括号中可以是任何代码，不限数量
   * 2.如果大括号中代码有且只有一行，则可以省略大括号。这种写法代码不规范，不是老司机的作风
@@ -1216,15 +956,6 @@ confirm("玛卡巴卡");
   * (3)其他表达式和值：都会先转换成布尔类型再判断真和假
 
 ```javascript
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       //1.顺序结构(默认) ： 代码从上往下依次执行
     //   console.log('1-我今天上学了')
@@ -1262,9 +993,6 @@ confirm("玛卡巴卡");
       }
 
     </script>
-  </body>
-</html>
-
 ```
 
 ### if-else双分支结构
@@ -1284,15 +1012,6 @@ if（条件）{
 * **if-else语句的作用主要就是为了提高代码的运行效率,虽然可以用两个if语句来代替if-else语句，但是两个if语句需要判断两次，而if-else只需要判断一次**
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
        /* 
        if-else双分支
@@ -1317,7 +1036,7 @@ if（条件）{
       if(score < 60 ){
         console.log('4-爸爸打我了')
       }else{
-        console.log('4-爸爸给我买奥迪')
+        console.log('4-爸爸给我买玛卡巴卡')
       }
       console.log('5-我回房间睡觉了')
 
@@ -1328,9 +1047,6 @@ if（条件）{
         console.log('我爱你');
       }
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -1356,15 +1072,6 @@ if(条件1){
   * **(2)if-else if-else语句中所有的大括号中的代码只会执行其中一个，不会执行多个**
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 
         if分支语句
@@ -1408,9 +1115,6 @@ if(条件1){
 
       console.log('5-我回房间睡觉了')
     </script>
-  </body>
-</html>
-
 ```
 
 ### switch-case分支结构
@@ -1443,15 +1147,6 @@ switch(表达式){
   * 3.default语句可以写在任何地方，也可以省略，但是一般写在最后，这是一种代码规范
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 
         switch-case分支结构
@@ -1476,32 +1171,29 @@ switch(表达式){
                 如果省略则会发生传统现象： 代码从上一个case无条件执行到下一个case
         */
 
-      //需求：弹出一个输入框让用户选择学科
+      //需求：弹出一个输入框让用户选择方向
       let subject = +prompt(
-        '请输入您想要选择的学科 1-前端  2-java 3-UI 4-新媒体'
+        '请输入您想要选择的方向 1-摆烂  2-学习 3-睡觉 4-搬砖'
       )
 
       switch (subject) {
         case 1:
-          document.write('恭喜你选择前端，2021年最有钱途的学科')
+          document.write('恭喜你选择摆烂 开摆')
           break
         case 2:
-          document.write('恭喜你选择前java，祝你早日聪明绝顶')
+          document.write('恭喜你选择学习 开学')
           break
         case 3:
-          document.write('恭喜你选择UI，祝你早日脱单')
+          document.write('恭喜你选择睡觉 睡')
           break
         case 4:
-          document.write('恭喜你选择新媒体')
+          document.write('恭喜你选择搬砖 快搬')
           break
         default:
-          document.write('脑子有包')
+          document.write('找事是吧')
           break
       }
     </script>
-  </body>
-</html>
-
 ```
 
 ### switch-case穿透用法
@@ -1569,15 +1261,6 @@ switch(表达式){
   * 三元运算符做的事和if-else类似，只是代码更简洁
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         1.运算符根据运算数的多少，分为一元、二元、三元运算符
@@ -1603,8 +1286,6 @@ switch(表达式){
         console.log( res1 )
 
     </script>
-</body>
-</html>
 ```
 
 
@@ -1616,15 +1297,6 @@ switch(表达式){
 ## 随堂练习：判断平年与闰年
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 本练习考察知识点: 双分支语句 + 逻辑运算符 */
 
@@ -1640,25 +1312,14 @@ switch(表达式){
             document.write( '平年' )
         }
         
-        
     </script>
-</body>
-</html>
 ```
 
 
 ## 随堂练习：求两个数字最大值
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+
     <script>
         /* 本案例考察知识点： 三元运算符、隐式类型转换 */
 
@@ -1671,11 +1332,8 @@ switch(表达式){
         //2.比较大小
         let res =  num1 >= num2 ? num1 : num2
         document.write(`最大的数字是:${res}`)
-        
-        
+                
     </script>
-</body>
-</html>
 ```
 
 
@@ -1683,15 +1341,6 @@ switch(表达式){
 ## 随堂练习：数字补0
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 本案例考察知识点：(1)三元运算符  (2)字符串拼接 */
 
@@ -1702,8 +1351,6 @@ switch(表达式){
         let res = num >= 10 ? num : '0' + num
         document.write(res)
     </script>
-</body>
-</html>
 ```
 
 
@@ -1714,15 +1361,6 @@ switch(表达式){
 ### while循环
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       //打印3次玛卡巴卡
       //复制粘贴弊端：(1)代码冗余 (2)维护不便
@@ -1748,16 +1386,13 @@ switch(表达式){
       let num = 1
       //2.循环条件
       while (num <= 10) {
-        console.log("班长爱坤哥")
+        console.log("玛卡巴卡")
         //3.循环变量自增
         num++
       }
 
-      console.log("班长完事了")
+      console.log("结束")
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -1765,15 +1400,6 @@ switch(表达式){
 ### for循环
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         for循环： 1.声明循环变量  2.循环条件  3.循环变量自增 写在一个小括号中，代码更加简洁易读
@@ -1793,14 +1419,12 @@ switch(表达式){
          */
 
          for(let i = 1; i <= 3;i++){
-             console.log('班长爱坤哥')
+             console.log('玛卡巴卡')
          }
 
-         console.log('班长完事了')
+         console.log('结束')
          
     </script>
-</body>
-</html>
 ```
 
 
@@ -1808,15 +1432,6 @@ switch(表达式){
 ### break与continue关键字
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 
       continue : 结束本次循环体，立即进入下一次循环判断
@@ -1839,9 +1454,6 @@ switch(表达式){
         document.write(`<p>我正在吃第${i}个饺子</p>`)
       }
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -1849,15 +1461,6 @@ switch(表达式){
 ## 随堂练习：while循环
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 本案例主要让学生了解while循环适用场景 及 对应 用法
             (1)while循环适用于 循环次数不明确
@@ -1875,8 +1478,6 @@ switch(表达式){
 
         alert('我们结婚吧')
     </script>
-</body>
-</html>
 ```
 
 
@@ -1884,15 +1485,6 @@ switch(表达式){
 ## 随堂练习：登录验证
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 本案例主要让学生了解while循环适用场景 及 对应 用法
             (1)while循环适用于 循环次数不明确
@@ -1913,8 +1505,6 @@ switch(表达式){
 
         alert('登录成功')
     </script>
-</body>
-</html>
 ```
 
 
@@ -1922,15 +1512,6 @@ switch(表达式){
 ## 随堂练习：打印1-100所有整数
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 本案例主要让学生了解 for 循环适用场景 及 对应 用法
             (1)for循环适用于 循环次数明确
@@ -1943,9 +1524,6 @@ switch(表达式){
         console.log(i)
       }
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -1955,15 +1533,6 @@ switch(表达式){
 ## 随堂练习：打印1-100所有偶数
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 本案例思路在开发中很常见，叫做筛选 ： 找出一组数据中,符合条件的数据 
       (1)先遍历(循环)每一个数据
@@ -1978,9 +1547,6 @@ switch(表达式){
         }
       }
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -1990,15 +1556,6 @@ switch(表达式){
 ![1645205028112](assets/1645205028112.png ':size=50%')
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 
         需求：用户可以选择1-存钱、2-取钱、3-查看余额和4-退出功能
@@ -2037,9 +1594,6 @@ switch(表达式){
         }
       }
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -2049,15 +1603,6 @@ switch(表达式){
 ### 循环嵌套介绍
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       
       /* 
@@ -2078,9 +1623,6 @@ switch(表达式){
         document.write('<br>')
       }
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -2088,15 +1630,6 @@ switch(表达式){
 ### 循环嵌套三角形星星
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 需求：打印一个三角形星星
         ☆
@@ -2124,8 +1657,6 @@ switch(表达式){
             document.write('<br>')
         }
     </script>
-</body>
-</html>
 ```
 
 
@@ -2182,15 +1713,6 @@ switch(表达式){
 ### 数组介绍
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 本小节为数组原理讲解,不需要学生敲代码
         1.数组是什么？ : 是一种复杂数据类型
@@ -2215,8 +1737,6 @@ switch(表达式){
         console.log( array )
         
     </script>
-</body>
-</html>
 ```
 
 
@@ -2224,15 +1744,6 @@ switch(表达式){
 ### 数组语法
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         1.数组声明：  let  数组名 = [元素1,元素2,元素3,.......]
@@ -2248,8 +1759,6 @@ switch(表达式){
         //3.数组长度   数组名.length
         console.log(names.length)//5
     </script>
-</body>
-</html>
 ```
 
 
@@ -2257,15 +1766,6 @@ switch(表达式){
 ### 数组遍历
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         1.数组语法
@@ -2292,8 +1792,6 @@ switch(表达式){
         // console.log( names[4] )
         
     </script>
-</body>
-</html>
 ```
 
 
@@ -2305,15 +1803,6 @@ switch(表达式){
 ### 查询与修改元素
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         1.声明数组  let 数组名 = [元素1,元素2,元素3,....]
@@ -2339,8 +1828,6 @@ switch(表达式){
        console.log(arr)
         
     </script>
-</body>
-</html>
 ```
 
 
@@ -2348,20 +1835,11 @@ switch(表达式){
 ### 新增元素(push与unshift)
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /*数组新增有两个方法
         
         数组名.push(元素)  : 一个或多个元素,添加到末尾
-        数组名.unshift(元素)  : 一个或多个元素,添加到末尾
+        数组名.unshift(元素)  : 一个或多个元素,添加到开头
         
         */
         let arr = [20,50,88,60,100]
@@ -2375,8 +1853,6 @@ switch(表达式){
         
 
     </script>
-</body>
-</html>
 ```
 
 
@@ -2384,15 +1860,6 @@ switch(表达式){
 ### 删除元素(pop与shift)
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         let arr = [10,20,30,40,50]
         
@@ -2403,11 +1870,8 @@ switch(表达式){
         //2删除第一个元素  arr.shift()
         arr.shift()
         console.log( arr )
-        
-        
+           
     </script>
-</body>
-</html>
 ```
 
 
@@ -2415,15 +1879,6 @@ switch(表达式){
 ### 删除指定元素
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         let arr = [10,20,30,40,50]
         
@@ -2437,8 +1892,6 @@ switch(表达式){
         console.log(arr)//[10,40,50]
         
     </script>
-</body>
-</html>
 ```
 
 
@@ -2448,15 +1901,6 @@ switch(表达式){
 ### 数组求和
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 本案例思路在开发中很常见，叫做累加和 : 求一组数据的 总和 
       (1)声明一个变量存储结果
@@ -2476,23 +1920,11 @@ switch(表达式){
 
       console.log(sum, sum / arr.length)
     </script>
-  </body>
-</html>
-
 ```
 
 ### 求数组最大元素与最小元素
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /*求数组最大值
         1.声明变量默认为第一个元素
@@ -2514,8 +1946,6 @@ switch(表达式){
 
         console.log(max)
     </script>
-</body>
-</html>
 ```
 
 
@@ -2523,15 +1953,7 @@ switch(表达式){
 ### 筛选数组
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+
     <script>
         //需求：将数组 [2, 0, 6, 1, 77, 0, 52, 0, 25, 7] 中大于等于 10 的元素选出来，放入新数组
 
@@ -2554,25 +1976,14 @@ switch(表达式){
         }
 
         console.log( newArr )
-        
-    
+            
     </script>
-</body>
-</html>
+
 ```
 
 ### 数组去0
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       //需求：将数组 [2, 0, 6, 1, 77, 0, 52, 0, 25, 7] 中的 0 去掉后，形成一个不包含 0 的新数组
 
@@ -2595,9 +2006,6 @@ switch(表达式){
 
       console.log(newArr)
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -2785,64 +2193,9 @@ switch(表达式){
 * 3.而函数就是解决这些重复功能的 `代码复用问题`
   * 函数是一个数据类型，可以理解为存储代码的容器。 把这些代码给存到变量中，要使用的时候取出来执行即可。
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script>
-      /* 需求：一段代码 需要在很多个地方使用 */
-
-      /*函数语法 
-        
-        1.声明函数 : 是一个存储过程，此时不会执行函数体代码  
-            function 函数名(){
-                函数体代码： 需要存储的一段代码
-            }
-
-        2.调用函数 ： 执行函数体代码
-            函数名()
-         */
-
-      //1.声明函数 : 把代码存入容器中
-      function learn() {
-        console.log("1-玛卡巴卡回家了")
-        console.log("2-玛卡巴卡看电视")
-        console.log("3-玛卡巴卡玩游戏")
-        console.log("4-玛卡巴卡睡觉了")
-      }
-
-      //2.调用函数： 执行函数体代码
-      //调用者A
-      learn()
-
-      //调用者B
-      learn()
-    </script>
-  </body>
-</html>
-
-```
-
-
-
 ### 函数声明/调用
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 需求：一段代码 需要在很多个地方使用 */
 
@@ -2872,9 +2225,6 @@ switch(表达式){
       //调用者B
       learn()
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -2882,15 +2232,6 @@ switch(表达式){
 ### 函数参数
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
        /*
         0.函数语法  : 函数是一种用于存储代码块的复杂数据类型
@@ -2931,25 +2272,13 @@ switch(表达式){
       learn('李四',9000)
 
       //调用者C
-      learn('ikun')//编译器底层  getSum(66,undefined)
+      learn('王五')//编译器底层  getSum(66,undefined)
     </script>
-  </body>
-</html>
-
 ```
 
 ### 函数默认参数(逻辑短路运算)
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 
         1.函数默认参数，我们自己在开发中使用不多。（了解后面很多js框架函数默认参数底层原理）
@@ -2983,9 +2312,6 @@ switch(表达式){
 
       
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -2993,15 +2319,6 @@ switch(表达式){
 ### 函数返回值
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /*
         0.函数语法  : 函数是一种用于存储代码块的复杂数据类型
@@ -3058,29 +2375,15 @@ switch(表达式){
         document.write(`<button>${num2}</button>`)
 
     </script>
-  </body>
-</html>
-
 ```
 
 ## 作用域
 
 ### 作用域介绍
 
-
-
 * 注意：如果一个变量在声明的时候没有使用关键字。 例如： `num = 10`,此时这个变量无论写在哪里都是全局变量。 （切忌：这是非常不规范的，千万不要这么写，否则以后代码可能会出现bug）
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
          /* 
          1.js变量作用域： 变量可以使用的区域
@@ -3088,7 +2391,7 @@ switch(表达式){
          2.js三种作用域
             2.1 全局作用域(全局变量)  ： 在函数外面let的变量
             2.2 局部作用域(局部变量) :   在函数里面let的变量
-            2.3 快级作用域(快级变量) ：   在分支或循环大括号中let的变量
+            2.3 快级作用域(块级变量) ：  在分支或循环大括号中let的变量
          */   
 
         //1.全局变量
@@ -3116,8 +2419,6 @@ switch(表达式){
         // console.log('循环外部：' + i)
        
     </script>
-</body>
-</html>
 ```
 
 
@@ -3125,15 +2426,6 @@ switch(表达式){
 ### 作用域链
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
         /* 
          1.js变量作用域： 变量可以使用的区域
@@ -3168,23 +2460,11 @@ switch(表达式){
         console.log( num )//10
         
     </script>
-  </body>
-</html>
-
 ```
 
 ## 匿名函数
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         1.匿名函数 : 没有函数名的函数
@@ -3222,17 +2502,7 @@ switch(表达式){
 ## 了解高阶函数
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
-        /* 本小节作为深度拓展，不要求完全掌握。主要为今后js高级 铺垫一下 */
 
         /* 
         1.任何数据类型共同点（值类型，引用类型）
@@ -3271,8 +2541,6 @@ switch(表达式){
         
 
     </script>
-</body>
-</html>
 ```
 
 ## 对象类型
@@ -3280,15 +2548,6 @@ switch(表达式){
 ### 对象介绍
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         1.对象是什么 : 对象是一种复杂数据类型
@@ -3305,24 +2564,21 @@ switch(表达式){
         //1.使用基本数据类型来存储
         //(1)弊端：冗余，维护不便
         //(2)好处： 阅读性高
-        let name = '班长'
+        let name = '张三'
         let age = 38
         let sex = '男'
 
         //2.使用复杂数据类型：数组
         //(1)好处： 一个变量存储多个数据
         //(2)弊端： 阅读性不高
-        let arr = ['班长',38,'男']
+        let arr = ['张三',38,'男']
         console.log(arr)
 
         //3.使用对象 ： 存多个 + 阅读性高
-        let obj = { name:'班长',age:38,sex:'男' }
+        let obj = { name:'张三',age:38,sex:'男' }
         console.log(obj)
-        
-        
+             
     </script>
-</body>
-</html>
 ```
 
 
@@ -3330,15 +2586,6 @@ switch(表达式){
 ### 对象语法
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 
         1.声明对象  
@@ -3355,7 +2602,7 @@ switch(表达式){
             如，对象的属性值是 函数， 则可以： 对象名.属性名()
         */
       let obj = {
-        name: '班长',
+        name: '张三',
         age: 18,
         gfs: ['小花', '小美', '小丽'],
         sayHi: function () {
@@ -3366,8 +2613,8 @@ switch(表达式){
         }
       }
 
-      console.log(obj) //{name: '班长', age: 18, gfs: Array(3)}
-      console.log(obj.name) //'班长'
+      console.log(obj) //{name: '张三', age: 18, gfs: Array(3)}
+      console.log(obj.name) //'张三'
       console.log(obj.age) //38
       console.log(obj.gfs) // ['小花', '小美', '小丽']
       console.log(obj.gfs[0]) // '小花'
@@ -3377,23 +2624,11 @@ switch(表达式){
       obj.sayHi()
       
     </script>
-  </body>
-</html>
-
 ```
 
 ### 对象操作（查询属性）
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 学习目标：查对象属性
         1.查询对象特点
@@ -3432,14 +2667,8 @@ switch(表达式){
         /* 思考 */
         let name = 'aaa'
         console.log( obj[name] )//undefined  obj['aaa']
-        
-        
-        
-
 
     </script>
-</body>
-</html>
 ```
 
 
@@ -3449,15 +2678,6 @@ switch(表达式){
 ### 对象操作：新增与修改
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 
         1.查询属性
@@ -3497,10 +2717,7 @@ switch(表达式){
         delete obj.hobby
         console.log(obj)//{name: '李四', age: 20, sex: '男', sayHi: ƒ}
         
-  
     </script>
-</body>
-</html>
 ```
 
 
@@ -3508,15 +2725,6 @@ switch(表达式){
 ### 对象遍历
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 
       1.遍历数组： 固定for循环
@@ -3541,9 +2749,6 @@ switch(表达式){
           console.log( obj[ key ] )//'班长' 18 '男' '学习' 
       }
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -3615,10 +2820,6 @@ switch(表达式){
       document.write('</tbody>')
       document.write('</table>')
 
-
-
-
-
     </script>
   </body>
 </html>
@@ -3636,15 +2837,6 @@ switch(表达式){
   * 初学者：可以不用去死记硬背，忘记了随时查阅文档。随着学习深入慢慢熟能生巧
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
 
       /* 1.内置对象 ： 由js作者提前写好的对象,我们直接拿来使用即可
@@ -3677,9 +2869,6 @@ switch(表达式){
       console.log( Math.random() * 100 )
       
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -3687,15 +2876,6 @@ switch(表达式){
 ## 随堂练习：随机颜色
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
         /* 本案例考察知识点： 函数语法、累加和思路、随机数应用 */
         
@@ -3714,8 +2894,6 @@ switch(表达式){
         console.log( getRandomColor() )
         
     </script>
-</body>
-</html>
 ```
 
 
@@ -3723,15 +2901,6 @@ switch(表达式){
 ## 随堂练习：猜谜游戏
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
     <script>
       /* 本案例考察知识点： 循环语句、多分支语句、break应用、随机数应用 */
 
@@ -3758,9 +2927,6 @@ switch(表达式){
 
       console.log("用户猜对了，循环结束")
     </script>
-  </body>
-</html>
-
 ```
 
 
@@ -3776,15 +2942,6 @@ switch(表达式){
 ![](assets/15-引用类型与值类型区别.gif)
 
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
     <script>
        /* 引用类型 与 值类型 区别 
        
@@ -3808,6 +2965,4 @@ switch(表达式){
        console.log(arr1,arr2)//[100,20,30]   [100.20.30]
        
     </script>
-</body>
-</html>
 ```
